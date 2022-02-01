@@ -1,0 +1,362 @@
+﻿<Window x:Class="Задание_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Задание_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1900" Width="600">
+    <Grid>
+        <FlowDocumentScrollViewer Name="docViewer">
+            <FlowDocument>
+                <Paragraph>
+                    <Bold>Струнные музыкальные инструменты</Bold>
+                </Paragraph>
+                <Paragraph>
+                    Струнные музыкальные инструменты
+                    <Italic>(хордофоны)</Italic>
+                    - это инструменты, источником звука в которых является колебание струн. Они известны с глубокой древности и широко распространены по всему миру, являясь неотъемлемой частью как симфонических оркестров, так и популярных групп и народных ансамблей
+                </Paragraph>
+                <Paragraph>
+                    По способу звукоизвлечения делятся на:
+                </Paragraph>
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph>
+                            <Underline>смычковые</Underline> - скрипка, виолончель, гиджак, кеманча;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Underline>щипковые</Underline> - арфа, гусли, гитара, балалайка;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Underline>ударные</Underline> - цимбалы;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Underline>ударно-клавишные</Underline> - фортепиано;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Underline>щипково-клавишные</Underline> - клавесин;
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Section FontSize="12">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="30"/>
+                            <TableColumn Width="90"/>
+                            <TableColumn Width="150"/>
+                            <TableColumn Width="330"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <!--первая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                      1
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Скрипка
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/skripka.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        4-струнный смычковый музыкальный инструмент. Самый высокий по регистру в скрипичном семействе, которое составило основу симфонического оркестра классического состава и струнного квартета.
+                                    </Paragraph>
+                                </TableCell> 
+                            </TableRow>
+                            <!--Вторая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        2
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Виолончель
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/viol.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        музыкальный инструмент скрипичного семейства басо-тенорового регистра. Появился в 15—16 веках. Классические образцы созданы итальянскими мастерами 17—18 веках: А. и Н. Амати, Дж. Гварнери, А. Страдивари.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Третья строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        3
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Гиджак 
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/gidjak.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        струнный смычковый музыкальный инструмент (таджикский, узбекский, туркменский, уйгурский).
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Четвертая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        4
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Кеманча (каманча)
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/kamancha.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        3-4-струнный смычковый музыкальный инструмент. Распространен в Азербайджане, Армении, Грузии, Дагестане, а также странах Среднего и Ближнего Востока.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Пятая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        5
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Арфа (от нем. Harfe)
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/arfa.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        многострунный щипковый музыкальный инструмент. Ранние изображения — в третьем тысячелетии до нашей эры. В простейшем виде встречается почти у всех народов. Современная педальная арфа изобретена в 1801 году С. Эраром (S. Erard) во Франции.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Шестая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        6
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Гусли
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/gusli.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                       русский струнный щипковый музыкальный инструмент. Крыловидные гусли («звончатые») имеют 4-14 и более струн, шлемовидные — 11-36, прямоугольные (столообразные) — 55-66 струн.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Седьмая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        7
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Гитара (исп. guitarra, от греч. кифара)
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/guitara.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        струнный щипковый инструмент лютневого типа. В Испании известна с 13 века, в 17-18 веках распространилась в странах Европы и Америки, в том числе как народный инструмент. С 18 века общеупотребительной стала 6-струнная гитара, 7-струнная получила распространение преимущественно в России. В числе разновидностей так называемая гавайская гитара; в современной эстрадной музыке используется электрогитара.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Восьмая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        8
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Балалайка
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/balalaika.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        русский народный 3-струнный щипковый музыкальный инструмент. Известна с нач. 18 в. Усовершенствована в 1880-х гг. (под руководством В. В. Андреева) В. В. Ивановым и Ф. С. Пасербским, сконструировавшими семейство балалаек, позднее — С. И. Налимовым.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Девятая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        9
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Цимбалы (польск. cymbaly)
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/cimbaly.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        многострунный ударный музыкальный инструмент древнего происхождения. Входят в состав народных оркестров Венгрии, Польши, Румынии, Белоруссии, Украины, Молдавии и др.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Десятая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        10
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Фортепьяно (итал. fortepiano, от forte — громко и piano — тихо)
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/fortepiano.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        общее название клавишных музыкальных инструментов с молоточковой механикой (рояль, пианино). Фортепьяно было изобретено в нач. 18 в. Появление современного типа фортепьяно — с т.н. двойной репетицией — относится к 1820-м гг. Расцвет фортепьянного исполнительства — 19-20 вв.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <!--Одиннадцатая строка-->
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        11
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        Клавесин (франц. clavecin)
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater>
+                                            <BlockUIContainer>
+                                                <Image Source="Data/klavesin.jpg" Width="100" Height="100"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        струнный клавишно-щипковый музыкальный инструмент, предшественник фортепьяно. Известен с 16 века. Существовали клавесины различных форм, типов и разновидностей, в том числе чембало, верджинел, спинет, клавицитериум.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
